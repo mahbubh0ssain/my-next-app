@@ -1,9 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Banner from "../Components/banner/banner";
+import Banner from "../Components/Banner/Banner";
 import Footer from "../Components/Footer/Footer";
-import Post from "../Components/Post/Post";
 
 export default function Home({ posts }) {
   return (
